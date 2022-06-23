@@ -113,7 +113,8 @@ class HttpClient {
         request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         body = JSON.stringify(body);
       }
-      request.send(body);
+
+      //request.send(body);
     })
   }
 }
